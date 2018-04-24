@@ -3,7 +3,7 @@ class Dog
     @name = name
     @breed = breed
     if breed == false || breed == nil || breed == ""
-      @breed = "Mutt"
+      puts @breed = "Mutt"
     end
   end
 end
