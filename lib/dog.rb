@@ -4,5 +4,6 @@ class Dog
     @breed = breed
     if breed == false || breed == nil || breed == ""
       @breed = "Mutt"
+    end
   end
 end
